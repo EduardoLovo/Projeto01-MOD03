@@ -3,6 +3,8 @@ const app = express();
 
 const port = 3500;
 
+app.use(express.json());
+
     // lista de games
 const games = [
     'Mario Kart',
